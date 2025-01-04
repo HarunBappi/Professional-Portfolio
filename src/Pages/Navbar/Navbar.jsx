@@ -1,14 +1,20 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import logo from "../../assets/logo2.png";
-
 export default function Navbar() {
   const navItems = (
     <>
-      <li>
-        <a>Item 1</a>
+      {/* <li>
+        <a href="#home">Home</a>
       </li>
       <li>
-        <a>Item 3</a>
+        <a href="#about">About Me </a>
+      </li> */}
+      <li>
+        <Link to='/'>Home</Link>
+      </li>
+      <li>
+      <Link to="#about" smooth={true} duration={500}>About me</Link>
       </li>
     </>
   );
@@ -41,15 +47,25 @@ export default function Navbar() {
         </div>
         <div className="flex items-center">
           <img className="w-20" src={logo} alt="" />
-          <h2 className="text-2xl" >Harunur <span className="text-orange-600" title={'Rosid'}>R.</span></h2>
+          <h2 className="text-2xl">
+            Harunur{" "}
+            <span className="text-orange-600" title={"Rosid"}>
+              R.
+            </span>
+          </h2>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-        <Link>
-            <button className="btn text-white border-none bg-teal-600 hover:bg-orange-600 text-xl">Resume</button>
+        <Link
+          to="https://docs.google.com/document/d/1oKGq_ftqcD5FNKTg6hus0Nx7KpLs-QXO/edit"
+          target="_blank"
+        >
+          <button className="btn text-white border-none bg-teal-600 hover:bg-orange-600">
+            Download Resume
+          </button>
         </Link>
       </div>
     </div>

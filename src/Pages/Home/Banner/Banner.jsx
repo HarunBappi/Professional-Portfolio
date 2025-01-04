@@ -34,6 +34,11 @@ export default function Banner() {
              <FaFacebook className="text-white text-3xl p-1"></FaFacebook>
             </Link> 
         </div>
+        <div className="mt-4">
+        <Link to='https://docs.google.com/document/d/1oKGq_ftqcD5FNKTg6hus0Nx7KpLs-QXO/edit' target="_blank">
+            <button className="btn text-white border-none bg-teal-600 hover:bg-orange-600">Download Resume</button>
+        </Link>
+        </div>
       </div>
       {/* right */}
       <div className="w-1/2 h-full bg-[#ECF0F1] relative overflow-hidden">
