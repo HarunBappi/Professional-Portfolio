@@ -21,21 +21,21 @@ export default function Footer() {
             <Link
               to="https://github.com/HarunBappi"
               target="_blank"
-              className="border-2 border-orange-400 rounded-full"
+              className="border-2 border-teal-600 rounded-full"
             >
               <FaGithub className="text-white text-3xl p-1"></FaGithub>
             </Link>
             <Link
               to="https://www.linkedin.com/in/md-harunur-rashid-bappi-99230412a/"
               target="_blank"
-              className="border-2 border-orange-400 rounded-full"
+              className="border-2 border-teal-600 rounded-full"
             >
               <FaLinkedinIn className="text-white text-3xl p-1"></FaLinkedinIn>
             </Link>
             <Link
               to="https://www.facebook.com/harunbappi0110/"
               target="_blank"
-              className="border-2 border-orange-400 rounded-full"
+              className="border-2 border-teal-600 rounded-full"
             >
               <FaFacebook className="text-white text-3xl p-1"></FaFacebook>
             </Link>

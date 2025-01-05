@@ -12,6 +12,12 @@ export default function Navbar() {
       </li>
       <li>
         <a href="#skill">Skill</a>
+      </li> 
+       <li>
+        <a href="#projects">My Projects</a>
+      </li> 
+      <li>
+        <a href="#contact">Contact Us</a>
       </li>
     </>
   );
