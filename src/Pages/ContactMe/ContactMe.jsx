@@ -3,6 +3,8 @@ import { useRef } from "react";
 import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ContactMe() {
   const form = useRef();
@@ -14,7 +16,7 @@ export default function ContactMe() {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          toast.success("Email Send Successfull.")
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -59,7 +61,7 @@ export default function ContactMe() {
             <div className="flex items-center justify-between">
               <button
                 type="submit"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="bg-teal-600 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               >
                 Send Email
               </button>
@@ -68,25 +70,26 @@ export default function ContactMe() {
         </div>
       
 
-      <div className="bg-slate-950 shadow-md rounded px-8 pt-6 pb-8 w-1/2 text-white">
-        <div className="flex items-center gap-4">
-        <FaLocationDot className="text-xl"></FaLocationDot>
-        <p>Dhaka, Bangladesh</p>
-        </div>
-        <div className="flex items-center gap-4">
-        <MdEmail></MdEmail>
-        <p>harunbappi1234@gmail.com</p>
-        </div>
-        <div className="flex items-center gap-4">
-        <FaPhoneAlt></FaPhoneAlt>
-        <p>01945138368</p>
-        </div>
-        <div className="flex items-center gap-4">
-        <FaWhatsapp></FaWhatsapp>
-        <p>01945138368</p>
+        <div className="bg-slate-900 shadow-md rounded px-8 pt-6 pb-8 w-1/2 text-white">
+          <div className="flex items-center gap-4 mb-4">
+            <FaLocationDot className="text-xl text-yellow-500" />
+            <p className="text-lg">Dhaka, Bangladesh</p>
+          </div>
+          <div className="flex items-center gap-4 mb-4">
+            <MdEmail className="text-xl text-green-500" />
+            <p className="text-lg">harunbappi1234@gmail.com</p>
+          </div>
+          <div className="flex items-center gap-4 mb-4">
+            <FaPhoneAlt className="text-xl text-blue-500" />
+            <p className="text-lg">01945138368</p>
+          </div>
+          <div className="flex items-center gap-4 mb-4">
+            <FaWhatsapp className="text-xl text-green-600" />
+            <p className="text-lg">01945138368</p>
+          </div>
         </div>
       </div>
-      </div>
+      <ToastContainer></ToastContainer>
     </section>
   );
 }

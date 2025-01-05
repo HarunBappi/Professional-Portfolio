@@ -60,7 +60,7 @@ export default function Navbar() {
           to="https://docs.google.com/document/d/1oKGq_ftqcD5FNKTg6hus0Nx7KpLs-QXO/edit"
           target="_blank"
         >
-          <button className="btn text-white border-none bg-teal-600 hover:bg-orange-600">
+          <button className="btn text-white border-none bg-teal-600 hover:bg-teal-800">
             Download Resume
           </button>
         </Link>

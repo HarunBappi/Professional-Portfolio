@@ -12,7 +12,7 @@ import tailwind from "../../assets/icons/tailwind.png";
 export default function Skill() {
   return (
     <div id="skill" className="bg-gray-100 text-gray-800 py-8">
-      <h2 className="text-3xl text-center w-1/6  mx-auto  border-2 border-orange-600 rounded-md py-1">
+      <h2 className="text-3xl text-center w-1/6  mx-auto  border-2 border-teal-600  rounded-md py-1">
         Skills
       </h2>
       <div className="w-7/12 mx-auto flex flex-col">
