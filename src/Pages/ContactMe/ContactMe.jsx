@@ -68,9 +68,9 @@ export default function ContactMe() {
         </div>
       
 
-      <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 w-1/2">
+      <div className="bg-slate-950 shadow-md rounded px-8 pt-6 pb-8 w-1/2 text-white">
         <div className="flex items-center gap-4">
-        <FaLocationDot></FaLocationDot>
+        <FaLocationDot className="text-xl"></FaLocationDot>
         <p>Dhaka, Bangladesh</p>
         </div>
         <div className="flex items-center gap-4">
