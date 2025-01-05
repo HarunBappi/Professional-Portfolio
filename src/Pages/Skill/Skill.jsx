@@ -11,16 +11,16 @@ import tailwind from "../../assets/icons/tailwind.png";
 
 export default function Skill() {
   return (
-    <div id="skill" className="bg-gray-100 text-gray-800 py-8">
+    <div id="skill" className="bg-[#011122] text-gray-200 py-8">
       <h2 className="text-3xl text-center w-1/6  mx-auto  border-2 border-teal-600  rounded-md py-1">
         Skills
       </h2>
-      <div className="w-7/12 mx-auto flex flex-col">
+      <div className="w-3/6 mx-auto flex flex-col mt-4 space-y-1">
         {/* html */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={html} alt="" />
+          <img className="w-10" src={html} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="100"
             max="100"
           ></progress>
@@ -28,9 +28,9 @@ export default function Skill() {
         </div>
         {/* css */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={css} alt="" />
+          <img className="w-10" src={css} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="90"
             max="100"
           ></progress>
@@ -38,9 +38,9 @@ export default function Skill() {
         </div>
         {/* SASS */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={sass} alt="" />
+          <img className="w-10" src={sass} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="90"
             max="100"
           ></progress>
@@ -48,9 +48,9 @@ export default function Skill() {
         </div>
         {/* JS */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={js} alt="" />
+          <img className="w-10" src={js} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="75"
             max="100"
           ></progress>
@@ -58,9 +58,9 @@ export default function Skill() {
         </div>
         {/* REACTJS */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={react} alt="" />
+          <img className="w-10" src={react} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="85"
             max="100"
           ></progress>
@@ -68,9 +68,9 @@ export default function Skill() {
         </div>
         {/* Tailwind */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={tailwind} alt="" />
+          <img className="w-10" src={tailwind} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="100"
             max="100"
           ></progress>
@@ -78,9 +78,9 @@ export default function Skill() {
         </div>
         {/* GIT */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={git} alt="" />
+          <img className="w-10" src={git} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="90"
             max="100"
           ></progress>
@@ -88,9 +88,9 @@ export default function Skill() {
         </div>
         {/* FIGMA */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={figma} alt="" />
+          <img className="w-10" src={figma} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="90"
             max="100"
           ></progress>
@@ -98,19 +98,19 @@ export default function Skill() {
         </div>
         {/* NODE */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={node} alt="" />
+          <img className="w-10" src={node} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="85"
             max="100"
           ></progress>
           <p>85%</p>
         </div>
-        {/* NODE */}
+        {/* MongoDB */}
         <div className="flex items-center gap-2">
-          <img className="w-12" src={mongodb} alt="" />
+          <img className="w-10" src={mongodb} alt="" />
           <progress
-            className="progress progress-success w-2/3"
+            className="progress bg-slate-700 progress-success w-2/3"
             value="85"
             max="100"
           ></progress>

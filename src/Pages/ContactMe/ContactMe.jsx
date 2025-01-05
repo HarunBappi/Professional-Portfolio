@@ -29,8 +29,8 @@ export default function ContactMe() {
       <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">
         Contact Me
       </h2>
-      <div className="flex w-10/12 mx-auto gap-5">
-        <div className="w-1/2">
+      <div className="flex flex-col lg:flex-row w-10/12 mx-auto gap-5">
+        <div className="lg:w-1/2">
           <form
             ref={form}
             onSubmit={sendEmail}
@@ -68,16 +68,14 @@ export default function ContactMe() {
             </div>
           </form>
         </div>
-      
-
-        <div className="bg-slate-900 shadow-md rounded px-8 pt-6 pb-8 w-1/2 text-white">
+        <div className="bg-slate-900 shadow-md rounded px-8 pt-6 pb-8 lg:w-1/2 text-white">
           <div className="flex items-center gap-4 mb-4">
             <FaLocationDot className="text-xl text-yellow-500" />
             <p className="text-lg">Dhaka, Bangladesh</p>
           </div>
           <div className="flex items-center gap-4 mb-4">
             <MdEmail className="text-xl text-green-500" />
-            <p className="text-lg">harunbappi1234@gmail.com</p>
+            <p className="text-sm md:text-xl">harunbappi1234@gmail.com</p>
           </div>
           <div className="flex items-center gap-4 mb-4">
             <FaPhoneAlt className="text-xl text-blue-500" />
