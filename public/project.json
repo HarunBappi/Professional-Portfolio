@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Peddy",
+    "image": "https://i.ibb.co.com/K2gxmwt/project2.png",
+    "liveLink": "https://pets-shop-hb.netlify.app/",
+    "description": "Peddy is a pet shop application offering a wide variety of pet products and services. It includes a user-friendly interface and advanced filtering options to help users find the perfect product for their pets.",
+    "technologies": ["React", "CSS", "Tailwind CSS", "Firebase"],
+    "features": [
+      "Search and filter products by category",
+      "Add to cart functionality",
+      "Responsive design"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mountain Treks",
+    "image": "https://i.ibb.co.com/SyngPzZ/project1.png",
+    "liveLink": "https://bashful-condition.surge.sh/",
+    "description": "Mountain Treks is an adventure booking platform for nature enthusiasts. Users can explore trekking packages and book their next adventure online.",
+    "technologies": ["React", "Tailwind CSS", "Firebase"],
+    "features": [
+      "Explore trekking destinations",
+      "Book trekking packages online",
+      "Interactive map for trek routes"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Gadget Heaven",
+    "image": "https://i.ibb.co.com/q7GZVtg/project3.png",
+    "liveLink": "https://arrogant-hill.surge.sh/",
+    "description": "Gadget Heaven is an e-commerce application focused on selling gadgets and electronic items. It includes detailed product pages, customer reviews, and a seamless checkout experience.",
+    "technologies": ["React", "Tailwind CSS", "Firebase"],
+    "features": [
+      "Browse gadgets by categories",
+      "Firebase Authentication",
+      "Wishlist and review system"
+    ]
+  }
+]

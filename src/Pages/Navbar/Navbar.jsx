@@ -1,20 +1,17 @@
-// import { Link } from "react-router-dom";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
+
 import logo from "../../assets/logo2.png";
 export default function Navbar() {
   const navItems = (
     <>
-      {/* <li>
+      <li>
         <a href="#home">Home</a>
       </li>
       <li>
         <a href="#about">About Me </a>
-      </li> */}
-      <li>
-        <Link to='/'>Home</Link>
       </li>
       <li>
-      <Link to="#about" smooth={true} duration={500}>About me</Link>
+        <a href="#skill">Skill</a>
       </li>
     </>
   );
@@ -40,14 +37,14 @@ export default function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-slate-900 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {navItems}
           </ul>
         </div>
         <div className="flex items-center">
-          <img className="w-20" src={logo} alt="" />
-          <h2 className="text-2xl">
+          <img className="w-10 md:w-20" src={logo} alt="" />
+          <h2 className="text-sm md:text-2xl">
             Harunur{" "}
             <span className="text-orange-600" title={"Rosid"}>
               R.

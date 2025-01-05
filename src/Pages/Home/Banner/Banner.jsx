@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import bannerImage from "../../../assets/harun.png";
 export default function Banner() {
   return (
-    <div className="bg-gray-100 h-[550px] flex items-center relative">
-      <div className="w-1/2 bg-[#2C3E50] h-full flex flex-col justify-center p-10">
+    <div className="bg-gray-100 h-[550px] flex flex-col md:flex-row md:items-center">
+      <div className="md:w-1/2 h-full bg-[#2C3E50]  flex flex-col justify-center p-10">
         <motion.h2
         animate={{ x: 50, color: ["#ff6133", "#FFFF"] }}
         transition={{
@@ -15,8 +15,8 @@ export default function Banner() {
           ease: easeOut,
           repeat: Infinity,
         }}
-         className="text-5xl font-bold">Hi, I'm Harunur Rosid</motion.h2>
-        <h3 className="text-orange-600 mt-4 text-3xl font-bold">
+         className="text-2xl md:text-4xl lg:text-5xl font-bold mt-14">Hi, I'm Harunur Rosid</motion.h2>
+        <h3 className="text-orange-600 mt-4 text-2xl md:text-3xl font-bold">
         Frontend Developer
         </h3>
         <p className="text-white mt-4">
@@ -41,13 +41,8 @@ export default function Banner() {
         </div>
       </div>
       {/* right */}
-      <div className="w-1/2 h-full bg-[#ECF0F1] relative overflow-hidden">
-        {/* Shape */}
-        <div
-          className="absolute top-0 left-0  h-full w-full  bg-[#ebecec]"
-          style={{ "clip-path": "polygon(15% 100%, 100% 0, 0 0, 0% 100%)" }}
-        ></div>
-        <div className="absolute top-0 left-0 w-full h-full flex justify-center items-end ">
+      <div className="md:w-1/2 h-full bg-[#ECF0F1]">
+        <div className=" w-full h-full flex justify-center items-end ">
           <img
             src={bannerImage}
             alt=""
