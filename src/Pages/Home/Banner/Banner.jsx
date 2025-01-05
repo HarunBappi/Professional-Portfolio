@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import bannerImage from "../../../assets/harun.png";
 export default function Banner() {
   return (
-    <div className="bg-gray-100 h-[550px] flex flex-col md:flex-row md:items-center">
-      <div className="md:w-1/2 h-full bg-[#2C3E50]  flex flex-col justify-center p-10">
+    <div className="bg-gray-100 lg:h-[550px] flex flex-col lg:flex-row lg:items-center">
+      <div className="w-full lg:w-1/2 h-full bg-[#2C3E50]  flex flex-col justify-center p-8">
         <motion.h2
         animate={{ x: 50, color: ["#ff6133", "#FFFF"] }}
         transition={{
@@ -15,7 +15,7 @@ export default function Banner() {
           ease: easeOut,
           repeat: Infinity,
         }}
-         className="text-2xl md:text-4xl lg:text-5xl font-bold mt-14">Hi, I'm Harunur Rosid</motion.h2>
+         className="text-2xl md:text-4xl xl:text-5xl font-bold mt-14">Hi, I'm Harunur Rosid</motion.h2>
         <h3 className="text-teal-600 mt-4 text-2xl md:text-3xl font-bold">
         Frontend Developer
         </h3>
@@ -41,7 +41,7 @@ export default function Banner() {
         </div>
       </div>
       {/* right */}
-      <div className="md:w-1/2 h-full bg-[#ECF0F1]">
+      <div className="w-full lg:w-1/2 h-full bg-[#ECF0F1]">
         <div className=" w-full h-full flex justify-center items-end ">
           <img
             src={bannerImage}
