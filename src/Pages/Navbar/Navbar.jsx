@@ -63,7 +63,7 @@ export default function Navbar() {
       </div>
       <div className="navbar-end">
         <Link
-          to="https://docs.google.com/document/d/1oKGq_ftqcD5FNKTg6hus0Nx7KpLs-QXO/edit"
+          to="https://drive.google.com/file/d/1_W47Ar9xLGRT9pSJ7T-L5a3S_NV8dFyn/view"
           target="_blank"
         >
           <button className="btn text-white border-none bg-teal-600 hover:bg-teal-800">
