@@ -5,7 +5,7 @@ import Navbar from "../Pages/Navbar/Navbar";
 
 export default function MainLayout() {
   return (
-    <div className="w-10/12 mx-auto">
+    <div>
         <Navbar></Navbar>
         <Outlet></Outlet>
         <Footer></Footer>

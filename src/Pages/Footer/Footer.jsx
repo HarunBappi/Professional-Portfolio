@@ -44,14 +44,14 @@ export default function Footer() {
       </footer>
       <footer className="footer footer-center bg-base-300 text-base-content p-2">
         <aside>
-          <p className="flex items-center gap-2">
+          <div className="flex items-center gap-2">
             Copyright © {new Date().getFullYear()} - All right reserved by <h2 className="text-sm">
             Harunur{" "}
             <span className="text-orange-600" title={"Rosid"}>
               R.
             </span>
           </h2>
-          </p>
+          </div>
         </aside>
       </footer>
     </div>
