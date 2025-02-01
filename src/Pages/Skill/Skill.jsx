@@ -4,6 +4,7 @@ import git from "../../assets/icons/git.png";
 import html from "../../assets/icons/html.png";
 import js from "../../assets/icons/js.png";
 import mongodb from "../../assets/icons/mongodb.png";
+import nextjs from "../../assets/icons/nextJS.png";
 import node from "../../assets/icons/node.png";
 import react from "../../assets/icons/react.png";
 import sass from "../../assets/icons/sass.png";
@@ -115,6 +116,16 @@ export default function Skill() {
             max="100"
           ></progress>
           <p>85%</p>
+        </div>
+        {/* Next JS */}
+        <div className="flex items-center gap-2">
+          <img className="w-10" src={nextjs} alt="" />
+          <progress
+            className="progress bg-slate-700 progress-warning w-2/3"
+            value="75"
+            max="100"
+          ></progress>
+          <p>Learning</p>
         </div>
       </div>
     </div>
