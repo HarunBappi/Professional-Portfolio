@@ -26,7 +26,7 @@ export default function ContactMe() {
 
   return (
     <section id="contact" className="bg-gray-100 py-12">
-      <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">
+      <h2 className="text-3xl font-bold text-gray-800 text-center mb-6 border-b-2 border-teal-600 rounded-md  w-10/12 md:w-3/12 mx-auto py-2">
         Contact Me
       </h2>
       <div className="flex flex-col lg:flex-row w-10/12 mx-auto gap-5">

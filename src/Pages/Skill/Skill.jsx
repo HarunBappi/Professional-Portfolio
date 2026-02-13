@@ -13,10 +13,10 @@ import tailwind from "../../assets/icons/tailwind.png";
 export default function Skill() {
   return (
     <div id="skill" className="bg-[#011122] text-gray-200 py-8">
-      <h2 className="text-3xl text-center w-1/2 lg:w-1/6 mx-auto  border-2 border-teal-600  rounded-md py-1">
+      <h2 className="text-3xl text-center w-1/2 lg:w-1/6 mx-auto  border-b-2 border-teal-600 rounded-md py-2">
         Skills
       </h2>
-      <div className="w-3/6 mx-auto flex flex-col mt-4 space-y-1">
+      <div className="w-5/6 md:w-3/6 mx-auto flex flex-col mt-4 space-y-1">
         {/* html */}
         <div className="flex items-center gap-2">
           <img className="w-10" src={html} alt="" />
@@ -25,37 +25,37 @@ export default function Skill() {
             value="100"
             max="100"
           ></progress>
-          <p>100%</p>
+          <p className="font-semibold">Advanced</p>
         </div>
         {/* css */}
         <div className="flex items-center gap-2">
           <img className="w-10" src={css} alt="" />
           <progress
             className="progress bg-slate-700 progress-success w-2/3"
-            value="90"
+            value="100"
             max="100"
           ></progress>
-          <p>95%</p>
+          <p className="font-semibold">Advanced</p>
         </div>
         {/* SASS */}
         <div className="flex items-center gap-2">
           <img className="w-10" src={sass} alt="" />
           <progress
             className="progress bg-slate-700 progress-success w-2/3"
-            value="90"
+            value="100"
             max="100"
           ></progress>
-          <p>90%</p>
+          <p className="font-semibold">Advanced</p>
         </div>
         {/* JS */}
         <div className="flex items-center gap-2">
           <img className="w-10" src={js} alt="" />
           <progress
             className="progress bg-slate-700 progress-success w-2/3"
-            value="75"
+            value="85"
             max="100"
           ></progress>
-          <p>75%</p>
+          <p className="font-semibold">Strong</p>
         </div>
         {/* REACTJS */}
         <div className="flex items-center gap-2">
@@ -65,7 +65,7 @@ export default function Skill() {
             value="85"
             max="100"
           ></progress>
-          <p>85%</p>
+          <p className="font-semibold">Strong</p>
         </div>
         {/* Tailwind */}
         <div className="flex items-center gap-2">
@@ -75,27 +75,27 @@ export default function Skill() {
             value="100"
             max="100"
           ></progress>
-          <p>100%</p>
+          <p className="font-semibold">Advanced</p>
         </div>
         {/* GIT */}
         <div className="flex items-center gap-2">
           <img className="w-10" src={git} alt="" />
           <progress
             className="progress bg-slate-700 progress-success w-2/3"
-            value="90"
+            value="85"
             max="100"
           ></progress>
-          <p>90%</p>
+          <p className="font-semibold">Strong</p>
         </div>
         {/* FIGMA */}
         <div className="flex items-center gap-2">
           <img className="w-10" src={figma} alt="" />
           <progress
             className="progress bg-slate-700 progress-success w-2/3"
-            value="90"
+            value="85"
             max="100"
           ></progress>
-          <p>80%</p>
+          <p className="font-semibold">Strong</p>
         </div>
         {/* NODE */}
         <div className="flex items-center gap-2">
@@ -105,7 +105,7 @@ export default function Skill() {
             value="85"
             max="100"
           ></progress>
-          <p>85%</p>
+          <p className="font-semibold">Strong</p>
         </div>
         {/* MongoDB */}
         <div className="flex items-center gap-2">
@@ -115,7 +115,7 @@ export default function Skill() {
             value="85"
             max="100"
           ></progress>
-          <p>85%</p>
+          <p className="font-semibold">Strong</p>
         </div>
         {/* Next JS */}
         <div className="flex items-center gap-2">
@@ -125,7 +125,7 @@ export default function Skill() {
             value="75"
             max="100"
           ></progress>
-          <p>Learning</p>
+          <p className="font-semibold">Intermediate</p>
         </div>
       </div>
     </div>
